@@ -64,7 +64,7 @@ Follow these steps to run the Pakistani Law Chatbot on your machine.
 ```bash
 # 1. Clone the repository
 git clone https://github.com/mrmudasir05/Legal-Chatbot.git
-cd pakistan-law-chatbot
+cd Legal-Chatbot
 
 # 2. (Optional) Create a virtual environment
 python -m venv venv
