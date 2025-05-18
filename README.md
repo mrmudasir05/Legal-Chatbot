@@ -45,3 +45,31 @@ This chatbot leverages **LLMs + Retrieval QA** to provide context-aware, accurat
   - Upload new official legal PDFs
   - Update or remove outdated laws
 - Ensures secure, controlled document management
+
+## 🧪 Running the Project Locally
+
+Follow these steps to run the Pakistani Law Chatbot on your machine.
+
+### 🔧 Prerequisites
+
+- Python 3.8+
+- [Groq API Key](https://console.groq.com/)
+- Legal PDFs for ingestion
+- Virtual environment (recommended)
+
+---
+
+### 🚀 Step-by-Step Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/mrmudasir05/Legal-Chatbot.git
+cd pakistan-law-chatbot
+
+# 2. (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 3. Install all required Python packages
+pip install -r requirements.txt
+
